@@ -14,9 +14,9 @@
   "devDependencies": {
     "webpack-dev-server": "^3"
   },
-  "scripts": {
-  "build": "NODE_OPTIONS=--openssl-legacy-provider webpack"
-  }
+  "engines": {
+  "node": "16.x"
+}
 
-
+  
 }
