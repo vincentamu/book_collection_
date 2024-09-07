@@ -17,5 +17,13 @@
     "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.1.0",
     "webpack-dev-server": "^3.11.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-private-methods"
+    ]
   }
 }
