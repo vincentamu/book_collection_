@@ -25,5 +25,9 @@
     "plugins": [
       "@babel/plugin-proposal-private-methods"
     ]
+  },
+  "engines": {
+  "node": ">=14.x"
   }
+
 }
