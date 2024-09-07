@@ -1,3 +1,1 @@
-{
-    "stack": "heroku-20"
-}
+release: rails db:migrate
